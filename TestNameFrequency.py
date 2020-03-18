@@ -10,5 +10,4 @@ def name_frequency():
 
 def test_CanReadCsvInDataframe(name_frequency):
     name_frequency.preparingData('users.csv', 'name')
-    assert name_frequency.preparingData('users.csv', 'name') == True
-
+    name_frequency.preparingData('users.csv', 'name') == True
